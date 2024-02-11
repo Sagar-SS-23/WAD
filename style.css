@@ -1,0 +1,198 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+body {
+  background-color:  #310ff1; 
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 10;
+  width: 90px;
+  background: #53daec;
+  overflow: hidden;
+  transition: width 1s; 
+}
+
+nav:hover {
+  width: 280px;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  margin: 20px 0; 
+  padding-bottom: 2rem; 
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 14px; 
+}
+
+a {
+  position: relative;
+  width: 280px;
+  font-size: 16px; 
+  color: #04010c; 
+  display: flex; 
+  align-items: center; 
+  padding: 12px 20px; 
+}
+
+nav .fas {
+  width: 70px;
+  font-size: 22px; 
+  text-align: center;
+}
+
+.nav-item {
+  margin-left: 15px; 
+}
+
+a:hover {
+  background: #eff870; 
+}
+
+a:hover i {
+  color: #141414;
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px; 
+}
+
+.container {
+  display: flex;
+}
+
+
+.main {
+  position: relative;
+  padding: 50px;
+  width: calc(100% - 90px); 
+}
+
+.main-top {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px; 
+  color: #f1eaea;
+}
+
+.main-top i {
+  margin-left: auto; 
+  color: #f7f6fa; 
+  cursor: pointer;
+}
+
+
+.users {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  background-color: #260ef8;
+}
+
+.users .card {
+  width: calc(25% - 20px); 
+  margin-bottom: 20px; 
+  background-color: #14f3f3;
+}
+
+.users .card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px; 
+}
+
+.users .card h4 {
+  font-size: 20px; 
+}
+
+.users .card p {
+  font-size: 15px; 
+  margin-bottom: 20px; 
+}
+
+.users .card button {
+  margin-top: 10px; 
+  padding: 8px 16px; 
+  background-color: #ec06ba;
+  
+}
+
+
+.attendance {
+  margin-top: 20px;
+}
+
+.attendance-list {
+  padding: 20px;
+  background: #06dddd;
+  border-radius: 10px;
+  box-shadow: 0 20px 20px rgba(63, 240, 131, 0.925); 
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #610707;
+}
+
+.table thead {
+  background-color: #4609ec;
+  color: #eee7e7;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #eff5f5;
+}
+
+.table tbody tr:hover {
+  background-color: #e4f550;
+}
+
+.table button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid #1506ec;
+  background-color: transparent;
+  color: #f14b09;
+  cursor: pointer;
+}
+
+.table button:hover {
+  background-color: #07f342;
+  color: #161615;
+}
+
+
