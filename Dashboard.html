@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Dashboard </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="https://play-lh.googleusercontent.com/ieiMlioaI-tIgK22AfqVhewp7Gzd9jhBeJLGmYL5UWudhYTi1h_7xUoSrHjF_m6Jr00">
+          <span class="nav-item">Admin</span>
+        </a></li>
+
+        <li><a href="#">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+
+        <li><a href="#">
+          <i class="fas fa-comment"></i>
+          <span class="nav-item">Message</span>
+        </a></li>
+
+        <li><a href="#">
+          <i class="fas fa-database"></i>
+          <span class="nav-item">My Profile</span>
+        </a></li>
+
+        <li><a href="#">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item">Attendance</span>
+        </a></li>
+
+        <li><a href="#">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item">Setting</span>
+        </a></li>
+
+        <li><a href="#" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Attendance</h1>  
+        <i class="fa fa-search"></i>
+      </div>
+
+      
+      <div class="users">
+        <div class="card">
+          <img src="https://st3.depositphotos.com/1007566/15037/v/450/depositphotos_150370008-stock-illustration-cartoon-man-icon-face-isolated.jpg">
+          <h4>Amit Kamat</h4>
+          <p>Ui designer</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>85%</span></td>
+                <td><span>87%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Year</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+
+        <div class="card">
+          <img src="https://cdn5.vectorstock.com/i/1000x1000/64/09/business-woman-cartoon-vector-18586409.jpg">
+          <h4>Nikita Jadhav</h4>
+          <p>Web Developer</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>82%</span></td>
+                <td><span>85%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Year</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+
+
+        <div class="card">
+          <img src="https://cdn5.vectorstock.com/i/1000x1000/97/74/cartoon-man-icon-face-isolated-vector-14339774.jpg">
+          <h4>Rahul Patil</h4>
+          <p>Software Developer</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>95%</span></td>
+                <td><span>82%</span></td>
+                
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Year</td>
+              </tr>
+
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+
+        <div class="card">
+          <img src="https://cbx-prod.b-cdn.net/COLOURBOX37232556.jpg?width=800&height=800&quality=90">
+          <h4>Sanket Kadam</h4>
+          <p>Graphics designer</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>85%</span></td>
+                <td><span>82%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Year</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+      </div>
+
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Attendance List</h1>
+          <table class="table">
+
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Date</th>
+                <th>Join Time</th>
+                <th>Logout Time</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="active">
+                <td>1</td>
+                <td>Amit Kamat</td>
+                <td>Ui Designer</td>
+                <td>13-4-24</td>
+                <td>8:00AM</td>
+                <td>1:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+
+              <tr class="active">
+                <td>2</td>
+                <td>Nikita Jadhav</td>
+                <td>Web Developer</td>
+                <td>3-2-24</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+
+              <tr class="active">
+                <td>3</td>
+                <td>Rahul Patil</td>
+                <td>Software Developer</td>
+                <td>23-3-24</td>
+                <td>2:00PM</td>
+                <td>6:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+
+              <tr class="active">
+                <td>4</td>
+                <td>Sanket Kadam</td>
+                <td>Graphics Designer</td>
+                <td>5-2-24</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>
