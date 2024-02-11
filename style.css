@@ -142,10 +142,14 @@ a:hover i {
 .users .card button {
   margin-top: 10px; 
   padding: 8px 16px; 
-  background-color: #ec06ba;
+  background-color: #f0efef;
   
 }
 
+.users .card button:hover{
+  background-color: #07f342;
+  color: #161615;
+}
 
 .attendance {
   margin-top: 20px;
